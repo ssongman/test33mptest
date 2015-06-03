@@ -21,10 +21,11 @@ public class MPTest extends Activity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mptest);
 
+        setContentView(R.layout.mptest);
+l
         mPlayer = MediaPlayer.create(this, R.raw.dingdong);
-        mSdPath = Environment.getExternalStorageDirectory().getAbsolutePath();
+        mSdPath = Environment.getExternaStorageDirectory().getAbsolutePath();
     }
 
     public void mOnClick(View v) {
